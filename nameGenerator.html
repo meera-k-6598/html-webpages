@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random Company Name Generator | JavaScript Project </title>
+</head>
+<body>
+    <script>
+        // Object containing first words
+        let obj1 = {
+            1: "Crazy",
+            2: "Amazing",
+            3: "Fire"
+        }
+        // Object containing second words
+        let obj2 = {
+            1: "Engine",
+            2: "Foods",
+            3: "Garments"
+        }
+        // Object containing third words
+        let obj3 = {
+            1: "Bros",
+            2: "Limited",
+            3: "Hub"
+        }
+        // Generate random numbers between 1 and 3
+        var ran1 = Math.floor(Math.random() * 3) + 1;
+        var ran2 = Math.floor(Math.random() * 3) + 1;
+        var ran3 = Math.floor(Math.random() * 3) + 1;
+        // Display the company names
+        console.log(obj1[ran1] + " " + obj2[ran2] + " " + obj3[ran3]);
+
+    </script>
+</body>
+
+</html>
